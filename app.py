@@ -246,6 +246,6 @@ def add_burritos(event, client, logger):
 
 # Start your app
 if __name__ == "__main__":
-    app.start(port=int(os.environ.get("PORT", 80)))
+    app.start(port=int(os.environ.get("PORT", 3000)))
 
 
